@@ -1,0 +1,36 @@
+/** Barrel — screens keep importing from src/api/client. */
+export { lastDataSource } from './http';
+export {
+  getBootstrap,
+  getDashboard,
+  getAlerts,
+  getNowcastLive,
+  getForecast,
+  getRisks,
+  getMarket,
+  searchGeo,
+  reverseGeo,
+  postChat,
+  getMapLayers,
+  getMapRadar,
+  getMapWeatherGrid,
+  getStormMap,
+  getReady,
+  locQuery,
+} from './endpoints';
+export {
+  useBootstrap,
+  useDashboard,
+  useAlerts,
+  useNowcastLive,
+  useForecastData,
+  useRisks,
+  useMarket,
+  useGeoSearch,
+  useChatMutation,
+  useMapLayers,
+  useMapRadar,
+  useMapWeatherGrid,
+  useStormMap,
+  useReady,
+} from './hooks';
